@@ -31,3 +31,49 @@ You can view a live demo of the portfolio website [here](https://your-portfolio-
    ```bash
    git clone https://github.com/yourusername/portfolio-website.git
    cd portfolio-website
+   
+2.Install the dependencies:
+   ```bash
+    npm install
+
+Usage
+To start the development server, run:
+ ```bash
+   npm start
+
+This will start the React development server and open the website in your default web browser.
+
+Technologies
+React
+React Router DOM
+HTML5
+CSS3
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+
+### Additional Instructions
+
+You might also want to include a `.gitignore` file to ignore `node_modules` and other unnecessary files:
+
+### `.gitignore`
+
+```plaintext
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+
